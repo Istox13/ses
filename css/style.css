@@ -1,0 +1,81 @@
+html,
+body,
+header,
+#intro {
+    height: 100%;
+}
+
+
+
+.rgba-black-strong, .rgba-black-strong:after {
+  background-color: rgba(0,0,0,.55);
+}
+
+
+#link-1-link:before {
+	display: block;
+	content: "";
+	height: 55px;
+	margin: -55px 0 0;
+}
+
+
+#banner-1 {
+  background: url(../img/background/minBanner-1.jpeg) no-repeat center;
+  background-size: cover;
+}
+#banner-2 {
+  background: url(../img/background/minBanner-2.jpeg) no-repeat center;
+  background-size: cover;
+}
+.page-middle-banner .opacity {
+  background: rgba(0,0,0,0.8);
+  text-align: center;
+  padding: 100px 0 103px 0;
+  overflow-x: hidden;
+}
+.page-middle-banner .opacity h3 {
+  color: #fff;
+  margin-bottom: 25px;
+}
+
+
+#registration {
+  border-radius: 12px;
+  color: #fff;
+}
+
+#intro {
+    background: url('../img/background/mainBanner.jpeg')no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    
+}
+
+
+.top-nav-collapse {
+  background-color: #0331ff;
+}
+@media (max-width: 991px) {
+  .navbar:not(.top-nav-collapse) {
+    background-color: #0331ff;
+  }
+}
+@media (min-width: 800px) and (max-width: 991px) {
+  .navbar:not(.top-nav-collapse) {
+    background-color: #0331ff;
+  }
+}
+
+
+
+.png-icon {
+  width: 100px;
+  height: 100px;
+}
+
+.nowrap {
+  white-space: nowrap;
+}
